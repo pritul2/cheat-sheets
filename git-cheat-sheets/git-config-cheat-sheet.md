@@ -1,5 +1,19 @@
 # Git Configuration `git config` Cheat Sheet
+<b>Note: Use global if to make changes from everywhere and local if to make changes for particular project</b>   
 
+- Checking the git configuration and location of git config file
+
+```
+git config -list --origin
+```
+
+- Removing the default username and useremail
+
+```
+git config --unset user.name 	% to remove username 
+git config --unset user.email 	% to remove email
+git config --local --remove-section user  % remove everything
+```
 - [Setting your username in Git](https://help.github.com/articles/setting-your-username-in-git/)
 
 ```
