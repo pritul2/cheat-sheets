@@ -1,0 +1,14 @@
+## Rebasing
+* It is alternative and powerful technique than git merge. 
+* Merge is preferred mainly over rebase
+* Here whatever are the commit history will be appended to the merging branch
+
+`git rebase <branch_to_merge_>`
+
+## Stashing
+* Sometimes instead of all commits history, we need only particular one, in that case we use stashing
+
+`git rebase --interactive`   
+Change "pick" to "s"
+
+* Add commit message and it is done. 
